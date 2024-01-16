@@ -1,0 +1,55 @@
+/* Semana.css */
+.semana-container {
+    /* Otros estilos para el contenedor de la semana */
+  }
+  
+/* Semana.css */
+
+.portada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Ajusta el relleno según sea necesario */
+    box-sizing: border-box;
+  }
+  
+  .portada-text {
+    order: 0; /* Cambia el orden, coloca el título en el lado derecho */
+  }
+  
+  .portada-numeros {
+    display: flex;
+    gap: 10px; /* Espacio entre los números, ajusta según sea necesario */
+  }
+
+  .codigo-animado {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    white-space: pre;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f8f8f8;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .nixie-digit {
+    animation: blink 1s infinite; /* Configura la animación de parpadeo */
+  }
+  
+  
+  /* Resto de los estilos para la semana */
+  
